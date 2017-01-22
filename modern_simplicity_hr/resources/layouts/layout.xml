@@ -1,7 +1,5 @@
 <layout id="WatchFace">
-    <label id="l_hour"		x="center"	y="30"		font="Gfx.FONT_NUMBER_THAI_HOT"	justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE" />
-    <label id="l_min"		x="center"	y="90"		font="Gfx.FONT_NUMBER_THAI_HOT"	justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE" />
-	<label id="l_battery"	x="right"	y="top"		font="Gfx.FONT_NUMBER_MEDIUM" 	justification="Gfx.TEXT_JUSTIFY_RIGHT"	color="Gfx.COLOR_WHITE" />
-	<label id="l_heartrate"	x="right"	y="20"		font="Gfx.FONT_NUMBER_MEDIUM"	justification="Gfx.TEXT_JUSTIFY_VCENTER"	color="Gfx.COLOR_WHITE" />
+	<label id="l_heartrate"	x="0"		y="top"		font="Gfx.FONT_NUMBER_MEDIUM"	justification="Gfx.TEXT_JUSTIFY_LEFT"	color="Gfx.COLOR_WHITE" />
+	<label id="l_time"		x="center"	y="center"	font="Gfx.FONT_NUMBER_THAI_HOT"	justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE" />
 	<label id="l_date"		x="center"	y="bottom"	font="Gfx.FONT_LARGE"			justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE" />
 </layout>
